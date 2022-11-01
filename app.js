@@ -1,11 +1,6 @@
-import { toggleHiddenElement, changeToFunkyColor } from "./funky.js";
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navBarLinks = document.getElementsByClassName('navbar-links')[0]
 
-const buttonElement = document.getElementById('secret-button');
-const pElement = document.getElementById('secret-p');
-
-buttonElement.addEventListener('click', () => {
-    toggleHiddenElement(pElement);
-    changeToFunkyColor(buttonElement);
-});
-
- 
+toggleButton.addEventListener('click', () => {
+    navBarLinks.classList.toggle('active')
+})
