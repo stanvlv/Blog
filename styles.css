@@ -1,5 +1,15 @@
-table, tr, td {
-  border: 1px solid black;
+html {
+  background-image: url('./rmawall.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+
+body {
+  font-family: 'PT Serif', serif, monospace, sans-serif;
+  font-size: 18px;
 }
 
 .rmaimg {
@@ -10,7 +20,7 @@ table, tr, td {
 
 
 #rma1 {
-  margin-top: 40px;
+  margin-top: 42px;
   width: 100%;
   height: auto;
 }
@@ -110,4 +120,18 @@ h1 {
     .navbar-links.active {
       display: flex;
     }
+}
+
+#history, #records, #rivalries, #honours {
+  background-color: rgba(215,215,216,0.9);
+  color: blue;
+  margin: 100px 20px;
+}
+
+table, tr, td {
+  border: 5px solid black;
+}
+
+h2, h3 {
+  border-top: 5px solid grey;
 }
