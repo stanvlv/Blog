@@ -31,6 +31,7 @@ a:link {
   margin-top: 42px;
   width: 100%;
   height: auto;
+  border: 4px solid rgba(215,215,216,0.9);
 }
 
 
@@ -163,4 +164,10 @@ h2, h3 {
 
 a:hover {
   color: blue;
+}
+
+.textimg {
+  max-width: 60%;
+  float: left;
+  margin: 5px;
 }
