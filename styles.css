@@ -50,7 +50,6 @@ h1 {
   position: fixed;
   display: flex;
   top: 0px;
-  width: %;
   justify-content: space-between;
   align-items: center;
   background-color: #333;
