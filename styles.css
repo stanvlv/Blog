@@ -1,6 +1,5 @@
 html {
   background-image: url('./rmawall.jpg');
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -10,7 +9,16 @@ html {
 body {
   font-family: 'PT Serif', serif, monospace, sans-serif;
   font-size: 18px;
+  margin: 5rem 8rem;
 }
+a {
+  color: white;
+}
+a:link {
+  text-decoration: none;
+}
+
+
 
 .rmaimg {
   position: relative;
@@ -27,6 +35,7 @@ body {
 
 
 h1 {
+  color: white;
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 50%;
@@ -35,11 +44,12 @@ h1 {
 }
 
 .navbar {
+  margin-left: center;
   z-index: 1;
   position: fixed;
   display: flex;
   top: 0px;
-  width: 100%;
+  width: %;
   justify-content: space-between;
   align-items: center;
   background-color: #333;
@@ -136,4 +146,21 @@ table, tr, td {
 
 h2, h3 {
   border-top: 5px solid grey;
+}
+
+#about {
+  background-color: rgba(215,215,216,0.9);
+  font-weight: bold;
+}
+
+.endlinks {
+  float: left;
+  text-decoration: none;
+  justify-content: space-between;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+a:hover {
+  color: blue;
 }
