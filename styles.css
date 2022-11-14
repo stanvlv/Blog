@@ -101,38 +101,6 @@ h1 {
   background-color: white;
 }
 
-@media (max-width: 450px) {
-    .toggle-button {
-      display: flex;
-    }
-
-    .navbar-links {
-      display: none;
-      width: 100%;
-    }
-
-    .navbar {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-
-    .navbar-links ul {
-      width: 100%;
-      flex-direction: column;
-    }
-
-    .navbar-links li {
-      text-align: center;
-    }
-    .navbar-links li a {
-      padding: .5rem 1rem;
-    }
-
-    .navbar-links.active {
-      display: flex;
-    }
-}
-
 #history, #records, #rivalries, #honours {
   background-color: rgba(215,215,216,0.9);
   color: rgb(7, 7, 79);
@@ -169,4 +137,37 @@ a:hover {
   max-width: 60%;
   float: left;
   margin: 5px;
+}
+
+
+@media (max-width: 450px) {
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links li {
+    text-align: center;
+  }
+  .navbar-links li a {
+    padding: .5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
 }
